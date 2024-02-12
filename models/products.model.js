@@ -11,7 +11,7 @@ const productSchema = mongoose.Schema({
     },
     image: {
         type: String,
-        required: true
+        // required: true
     },
     category: {
         type: String,
@@ -39,15 +39,15 @@ const productSchema = mongoose.Schema({
     },
     stars:{
         type: Number,
-        required: true
+        // required: true
     },
     reviews:{
         type: Number,
-        required: true
+        // required: true
     },
     size:{
         type: Array,
-        required: true
+        // required: true
     }
 },  { timestamps: true });
 
